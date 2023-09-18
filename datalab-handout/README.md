@@ -44,4 +44,4 @@ Total points: 36/36
 ****
 Reference:
 - [datalab PDF | CMU.EDU](http://csapp.cs.cmu.edu/3e/datalab.pdf)
-- [logicla negation for unsigned 32-bit interger | stack overflow](https://stackoverflow.com/a/4971757/18602987)
+- [logical negation for unsigned 32-bit integer | stack overflow](https://stackoverflow.com/a/4971757/18602987)
