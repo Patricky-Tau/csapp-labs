@@ -64,6 +64,7 @@ This is the key. We are done.
 <details><summary><code>disas phase_2</code></summary>
 
 ```assembly
+(gdb) disas phase_2
 Dump of assembler code for function phase_2:
    0x0000000000400efc <+0>:     push   %rbp
    0x0000000000400efd <+1>:     push   %rbx
@@ -123,6 +124,7 @@ The answer numbers are points the met before the match ends. Which is $1, 2, 4, 
 <details><summary><code>disas phase_3</code></summary>
 
 ```assembly
+(gdb) disas phase_3
 Dump of assembler code for function phase_3:
    0x0000000000400f43 <+0>:	sub    $0x18,%rsp
    0x0000000000400f47 <+4>:	lea    0xc(%rsp),%rcx
@@ -274,6 +276,7 @@ Anyway, the answers are:
 <details><summary><code>disas phase_4</code></summary>
 
 ```assembly
+(gdb) disas phase_4
 Dump of assembler code for function phase_4:
    0x000000000040100c <+0>:     sub    $0x18,%rsp
    0x0000000000401010 <+4>:     lea    0xc(%rsp),%rcx
@@ -313,6 +316,7 @@ Diving into `<func4>`, you'll get codes below.
 <details><summary><code>disas func4</code></summary>
 
 ```assembly
+(gdb) disas func4
 Dump of assembler code for function func4:
   0x0000000000400fce <+0>:     sub    $0x8,%rsp
   0x0000000000400fd2 <+4>:     mov    %edx,%eax
@@ -409,6 +413,7 @@ So `x` can be `0, 1, 4, 7`.
 <details><summary><code>disas phase_5</code></summary>
 
 ```assembly
+(gdb) disas phase_5
 Dump of assembler code for function phase_5:
   0x0000000000401062 <+0>:     push   %rbx
   0x0000000000401063 <+1>:     sub    $0x20,%rsp
